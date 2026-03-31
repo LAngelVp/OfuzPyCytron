@@ -2,7 +2,7 @@
 
 ## Notificación de una Vulnerabilidad
 
-Si encuentras una vulnerabilidad de seguridad en **OfuzPyCytron**, por favor repórtala enviando un correo a:
+Si encuentras una vulnerabilidad de seguridad en **QuickUIForge**, por favor repórtala enviando un correo a:
 
 **neal.ocaffry@gmail.com**
 
@@ -12,7 +12,7 @@ Para ayudarme a investigar y resolver el problema rápidamente, incluye en tu me
 
 - **Descripción clara** del problema
 - **Pasos para reproducirlo** (si es posible, con capturas de pantalla o ejemplos)
-- **Versión afectada** de I APP
+- **Versión afectada** de QuickUIForge
 - **Impacto potencial** que crees que puede tener
 - **Tu información de contacto** (si no usas el correo desde donde envías el reporte)
 
@@ -30,8 +30,8 @@ Por favor, **no divulges públicamente** la vulnerabilidad hasta que haya sido c
 
 ### Reconocimiento
 
-Si lo deseas, te reconoceré en las notas de la versión o en un archivo de agradecimientos por tu contribución a la seguridad de **OfuzPyCytron**.
+Si lo deseas, te reconoceré en las notas de la versión o en un archivo de agradecimientos por tu contribución a la seguridad de **QuickUIForge**.
 
 ---
 
-Gracias por ayudarme a mantener **OfuzPyCytron** más seguro para todos los usuarios.
+Gracias por ayudarme a mantener **QuickUIForge** más seguro para todos los usuarios.
