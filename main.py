@@ -8,6 +8,17 @@ from PySide6.QtWidgets import (QApplication, QMainWindow, QPushButton, QVBoxLayo
                              QHBoxLayout, QTabWidget, QLineEdit, QCheckBox, 
                              QComboBox, QGroupBox, QSplitter, QTabWidget as QTabWidget2)
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QIcon
+
+def resource_path(relative_path):
+    """Obtiene la ruta absoluta del recurso (funciona para desarrollo y PyInstaller)"""
+    try:
+        # PyInstaller crea una carpeta temporal y guarda la ruta en _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
 
 class ConvertidorRecursos(QWidget):
     """Clase para convertir archivos .qrc a .py con soporte para PyQt6 y PySide6"""
@@ -515,8 +526,10 @@ class MainApp(QMainWindow):
     
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("CelerisRMPG - Suite de Herramientas")
+        self.setWindowTitle("QuickUIForge - Suite de Herramientas")
+        self.setWindowIcon(QIcon(resource_path("imgQuickUIForge.ico")))
         self.resize(900, 700)
+        
         
         # Crear widget con pestañas
         tabs = QTabWidget()
@@ -731,6 +744,7 @@ setup(
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon(resource_path("imgQuickUIForge.ico")))
     window = MainApp()
     window.show()
     sys.exit(app.exec())
