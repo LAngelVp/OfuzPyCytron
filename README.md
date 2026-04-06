@@ -1,6 +1,6 @@
-# 🛡️ OfuzPyCytron
+# 🛡️ QuickUIForge
 
-**OfuzPyCytron** es una herramienta de escritorio diseñada para desarrolladores que buscan proteger su propiedad intelectual. Facilita la ofuscación de scripts de Python utilizando el motor de **Cytron**, permitiendo procesar archivos individuales o proyectos completos (carpetas) a través de una interfaz gráfica intuitiva y moderna.
+**QuickUIForge** es una herramienta de escritorio diseñada para desarrolladores que buscan proteger su propiedad intelectual. Facilita la ofuscación de scripts de Python utilizando el motor de **Cytron**, permitiendo procesar archivos individuales o proyectos completos (carpetas) a través de una interfaz gráfica intuitiva y moderna.
 
 ---
 
@@ -28,8 +28,8 @@ Sigue estos pasos para preparar tu entorno de desarrollo:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/tu-usuario/OfuzPyCytron.git](https://github.com/tu-usuario/OfuzPyCytron.git)
-    cd OfuzPyCytron
+    git clone [https://github.com/tu-usuario/OfuzPyCytron.git](https://github.com/tu-usuario/QuickUIForge.git)
+    cd QuickUIForge
     ```
 
 2.  **Crear un entorno virtual (Recomendado):**
@@ -63,7 +63,7 @@ Sigue estos pasos para preparar tu entorno de desarrollo:
 ## 📂 Estructura del Proyecto
 
 ```text
-OfuzPyCytron/
+QuickUIForge/
 ├── main.py              # Punto de entrada de la aplicación
 └── requirements.txt     # Listado de dependencias del proyecto
 ```
